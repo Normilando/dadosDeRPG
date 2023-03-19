@@ -140,7 +140,7 @@ button {
     content: '';
     position: absolute;
     left: 0px;
-    top: 1.35rem;
+    top: 1.3rem;
     border-left: 1.5rem solid transparent;
     border-right: 1.5rem solid transparent;
     border-top: 1.3rem solid #FFA33A;
@@ -173,7 +173,7 @@ button {
     content: '';
     position: absolute;
     left: -1px;
-    top: 1.5rem;
+    top: 1.4rem;
     width: 2rem;
     border-left: 1rem solid transparent;
     border-right: 1rem solid transparent;
@@ -184,7 +184,7 @@ button {
     content: '';
     position: absolute;
     left: -1px;
-    top: -1.3rem;
+    top: -1.2rem;
     width: 2rem;
     border-left: 1rem solid transparent;
     border-right: 1rem solid transparent;
