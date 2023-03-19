@@ -26,27 +26,170 @@ body {
 }
 
 button {
-    width: 4rem;
-    height: 4rem;
-    background-color: white;
+    width: 0;
+    height: 0;
+    padding: 0;
     border: none;
+    position: absolute;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #d4 {
-    position: relative;
+	border-left: 2rem solid transparent;
+	border-right: 2rem solid transparent;
+	border-bottom: 3.5rem solid #A1EFDB;
 }
 
-/*
-#d4::before {
-    content: "";
+#d4 p {
+    padding-top: 4rem;
+}
+
+#d6 {
+    border: 1.7rem solid #EFA1B6;
+}
+
+#d8 {
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    border-bottom: 2rem solid #B9A1EF;
+    position: relative;
+    top: -15px;
+}
+
+#d8 p {
+    padding-top: 4rem;
+    z-index: 1;
+}
+
+#d8:after {
+    content: '';
     position: absolute;
-    width: 50%;
-    height: 45%;
-    background-color: black;
-    left: 0;
-    top: 0;
-  } 
-*/
+    left: -24px;
+    top: 32px;
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    border-top: 2rem solid #B9A1EF;
+}
+
+#d10 {
+    border-left: 1.8rem solid transparent;
+    border-right: 1.8rem solid transparent;
+    border-bottom: 1.8rem solid #D8EFA1;
+    position: relative;
+    top: -15px;
+}
+
+#d10 p {
+    padding-top: 3.6rem;
+    z-index: 1;
+}
+
+#d10:after {
+    content: '';
+    position: absolute;
+    left: -29px;
+    top: 29px;
+    border-left: 1.8rem solid transparent;
+    border-right: 1.8rem solid transparent;
+    border-top: 1.8rem solid #D8EFA1;
+}
+
+#d12 {
+    width: 4rem;
+    height: 1rem;
+    background-color: #FFF63A;
+    border-left: 1.8rem solid transparent;
+    border-right: 1.8rem solid transparent;
+    border-bottom: 1.8rem solid #FFF63A;
+    position: relative;
+    top: 15px;
+}
+
+#d12 p {
+    padding-top: 1rem;
+    z-index: 1;
+}
+
+#d12::after {
+    content: '';
+    position: absolute;
+    left: -29px;
+    top: -32px;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-bottom: 2rem solid #FFF63A;
+}
+
+#d20 {
+    width: 3rem;
+    height: 1.3rem;
+    background-color: #FFA33A;
+    position: relative;
+    top: -1px;
+}
+
+#d20 p {
+    padding-top: 0.3rem;
+    z-index: 1;
+}
+
+#d20:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 21px;
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    border-top: 1.3rem solid #FFA33A;
+}
+
+#d20:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -20.8px;
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    border-bottom: 1.3rem solid #FFA33A;
+}
+
+#d100 {
+    width: 3.9rem;
+    height: 1.5rem;
+    background-color: #FF3A3A;
+    position: relative;
+    top: -1px;
+}
+
+#d100 p {
+    padding-top: 0.3rem;
+    z-index: 1;
+}
+
+#d100:after {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: 24px;
+    width: 2rem;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-top: 1.3rem solid #FF3A3A;
+}
+
+#d100:before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: -20px;
+    width: 2rem;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1.3rem solid #FF3A3A;
+}
 
 .guarda-dado {
     display: flex;
@@ -68,9 +211,13 @@ button {
 .dentro {
     width: 360px;
     height: 360px;
-    background-color: #6f2d0d;
+    background-color: #854432;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20%;
+}
+
+#numero-final {
+    font-size: 4rem;
 }
