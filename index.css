@@ -221,3 +221,13 @@ button {
 #numero-final {
     font-size: 4rem;
 }
+
+@media screen and (max-width: 600px) {
+    .guarda-dado {
+        padding-left: 6rem;
+    }
+
+    #barra {
+        justify-content: center;
+    }
+}
