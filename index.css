@@ -199,8 +199,8 @@ button {
 }
 
 .borda {
-    width: 400px;
-    height: 400px;
+    width: 22rem;
+    height: 22rem;
     background-color: #b07550;
     display: flex;
     justify-content: center;
@@ -209,8 +209,8 @@ button {
 }
 
 .dentro {
-    width: 360px;
-    height: 360px;
+    width: 19rem;
+    height: 19rem;
     background-color: #854432;
     display: flex;
     justify-content: center;
@@ -225,9 +225,24 @@ button {
 @media screen and (max-width: 600px) {
     .guarda-dado {
         padding-left: 6rem;
+        padding-top: 15rem;
+    }
+
+    .borda {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .dentro {
+        width: 12rem;
+        height: 12rem;
     }
 
     #barra {
         justify-content: center;
+    }
+
+    #numero-final {
+        font-size: 3rem;
     }
 }
