@@ -29,26 +29,28 @@ button {
     width: 0;
     height: 0;
     padding: 0;
+    margin: 0;
     border: none;
-    position: absolute;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #d4 {
-	border-left: 2rem solid transparent;
-	border-right: 2rem solid transparent;
-	border-bottom: 3.5rem solid #A1EFDB;
+	border-left: 1.7rem solid transparent;
+	border-right: 1.7rem solid transparent;
+	border-bottom: 3rem solid #A1EFDB;
 }
 
 #d4 p {
-    padding-top: 4rem;
+    position: relative;
+    top: 2rem;
 }
 
 #d6 {
-    border: 1.7rem solid #EFA1B6;
+    border: 1.5rem solid #EFA1B6;
 }
 
 #d8 {
@@ -60,7 +62,8 @@ button {
 }
 
 #d8 p {
-    padding-top: 4rem;
+    top: 2rem;
+    position: relative;
     z-index: 1;
 }
 
@@ -83,7 +86,8 @@ button {
 }
 
 #d10 p {
-    padding-top: 3.6rem;
+    position: relative;
+    top: 2rem;
     z-index: 1;
 }
 
