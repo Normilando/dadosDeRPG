@@ -2,11 +2,11 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: url(Imagens/mesa-de-madeira.jpg);
+    background-color: #308993;
 }
 
 #barra {
-    background-color: #b07550;
+    background-color: #933A30;
     position: fixed;
     height: 100vh;
     width: 6rem;
@@ -215,7 +215,7 @@ button {
 .dentro {
     width: 19rem;
     height: 19rem;
-    background-color: #854432;
+    background-color: #933A30;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,6 +224,7 @@ button {
 
 #numero-final {
     font-size: 4rem;
+    color: ;
 }
 
 @media screen and (max-width: 600px) {
