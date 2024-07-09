@@ -1,3 +1,3 @@
-# Aplicativo de criação de números aleátorios
+# Lançador de dados
 
-Esse é uma aplicação simples de lançador de números para jogos de RPG.
+Essa é uma aplicação simples de lançador de números aleatórios para jogos de RPG.
